@@ -1,0 +1,12 @@
+apiVersion: v2
+name: hello-kube
+description: A Helm chart for Kubernetes
+type: application
+version: 1.0.0
+
+dependencies:
+  - name: hello-kube
+    version: 1.0.0
+    repository: oci://europe-central2-docker.pkg.dev/private-373212/helm
+
+

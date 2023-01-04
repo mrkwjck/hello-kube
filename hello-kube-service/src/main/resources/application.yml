@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      base-path: /
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+  endpoint:
+    health:
+      enabled: true
+  server:
+    port: 8090
