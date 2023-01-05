@@ -1,5 +1,5 @@
 hello-kube:
-  replicaCount: 600
+  replicaCount: 2
 
   image:
     tag: "1.0.0"
