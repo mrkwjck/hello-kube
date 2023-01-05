@@ -4,3 +4,6 @@ hello-kube:
   image:
     tag: "1.0.0"
     pullPolicy: IfNotPresent
+
+  serviceAccount:
+    create: false
